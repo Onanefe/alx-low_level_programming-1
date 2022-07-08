@@ -18,7 +18,7 @@ int main(void)
 		else if (x % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d", x);
+			printf("%d ", x);
 	}
 	printf("Buzz\n");
 
