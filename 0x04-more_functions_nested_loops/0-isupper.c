@@ -12,7 +12,7 @@ int _isupper(int c)
 	if (c >= 65 && c <= 90)
 		res = 1;
 	else
-		res - 0;
+		res = 0;
 
 	return (res);
 }
